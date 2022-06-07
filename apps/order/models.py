@@ -26,4 +26,7 @@ class OrderItems(models.Model):
     notes = models.TextField(blank=True)
 
     class Meta:
-        unique_together = ['order', 'product']
+        unique_together = ['order', 'product'] 
+
+
+    
