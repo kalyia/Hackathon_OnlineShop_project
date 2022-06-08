@@ -1,3 +1,4 @@
+
 from django.db import models
 from django.conf import settings
 
@@ -29,4 +30,8 @@ class LikeProduct(models.Model):
         user = models.ForeignKey(to=settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='likes')
         product = models.ForeignKey(to=Product, on_delete=models.CASCADE, related_name="likes")
         is_like = models.BooleanField(default=True)
+<<<<<<< HEAD
+=======
+
+>>>>>>> d577f79bd345bea0c6f4dc89a83266c4f9c66bd5
 

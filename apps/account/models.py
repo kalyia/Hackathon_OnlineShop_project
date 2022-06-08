@@ -1,5 +1,9 @@
 from django.db import models
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> d577f79bd345bea0c6f4dc89a83266c4f9c66bd5
 from django.contrib.auth.hashers import make_password  # hash
 from django.contrib.auth.models import AbstractUser, UserManager
 class CustomUserManager(UserManager):
@@ -46,8 +50,12 @@ class CustomUser(AbstractUser):
     def generate_activation_code(length: int, number_range: str):
         from django.utils.crypto import get_random_string
         return get_random_string(length, number_range)
+<<<<<<< HEAD
 =======
 
 
 
 >>>>>>> 0dadd92a397080c63c41666993a30052b25588c6
+=======
+
+>>>>>>> d577f79bd345bea0c6f4dc89a83266c4f9c66bd5
